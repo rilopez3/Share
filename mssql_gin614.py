@@ -1,4 +1,4 @@
-import pymssql
+import sys, pymssql, pandas as pd
 def query(q):
   connect_data = {
       'server': 'SQL5097.site4now.net',
