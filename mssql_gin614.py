@@ -1,3 +1,4 @@
+import pymssql
 def query(q):
   connect_data = {
       'server': 'SQL5097.site4now.net',
